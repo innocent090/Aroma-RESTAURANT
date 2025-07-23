@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroma Kitchen - Nigerian Cuisine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Aroma <span>Kitchen</span></div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#" class="nav-link" data-page="home">Home</a></li>
+                <li><a href="#" class="nav-link" data-page="menu">Menu</a></li>
+                <li><a href="#" class="nav-link" data-page="order">Order</a></li>
+                <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Home Page -->
+    <div id="home-page" class="page active">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Authentic Nigerian Cuisine</h1>
+                <p>Experience the rich flavors of Nigeria with our carefully prepared dishes made from the freshest ingredients.</p>
+                <a href="#" class="btn nav-link" data-page="menu">Order Now</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <div class="container">
+                <h2>Welcome to Aroma Kitchen</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>At Aroma Kitchen, we bring the authentic taste of Nigerian cuisine to your table. Our chefs use traditional recipes passed down through generations to create dishes that are both flavorful and nutritious.</p>
+                        <p>Located in the heart of Awka at Aroma Junction, we've been serving the community since 2010 with our signature dishes that keep customers coming back for more.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Chef preparing Nigerian food">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Delivery Section -->
+        <section class="delivery">
+            <div class="container">
+                <h3>Delivery Service</h3>
+                <p>We offer delivery services to all areas within Awka. Place your order online and enjoy our delicious meals in the comfort of your home or office.</p>
+                <p>Delivery hours: Monday - Saturday, 10:00 AM - 8:00 PM</p>
+                <a href="#" class="btn nav-link" data-page="menu">Place Your Order</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Menu Page -->
+    <div id="menu-page" class="page">
+        <section class="menu-header">
+            <div class="menu-header-content">
+                <h1>Our Menu</h1>
+                <p>Explore our delicious selection of Nigerian dishes</p>
+            </div>
+        </section>
+
+        <section class="menu-categories">
+            <div class="container">
+                <!-- Soups -->
+                <div class="category">
+                    <h2>🥣 Soups</h2>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <img src="./image/egusi soup.jpg" alt="Egusi Soup">
+                            <div class="menu-item-content">
+                                <h3>Egusi Soup</h3>
+                                <p>Rich melon seed soup with assorted meat, fish, and vegetables.</p>
+                                <span class="price">₦1,500</span>
+                                <button class="btn add-to-cart" data-name="Egusi Soup" data-price="1500">Add to Order</button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./image/oha soup.jpg" alt="Oha Soup">
+                            <div class="menu-item-content">
+                                <h3>Oha Soup</h3>
+                                <p>Traditional Igbo soup made with oha leaves, cocoyam, and assorted meat.</p>
+                                <span class="price">₦1,800</span>
+                                <button class="btn add-to-cart" data-name="Oha Soup" data-price="1800">Add to Order</button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./image/nsala soup.jpg" alt="Nsala Soup">
+                            <div class="menu-item-content">
+                                <h3>Nsala Soup</h3>
+                                <p>White soup prepared with catfish, utazi leaves, and yam.</p>
+                                <span class="price">₦2,000</span>
+                                <button class="btn add-to-cart" data-name="Nsala Soup" data-price="2000">Add to Order</button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./image/ogbono soup.jpg" alt="Ogbono Soup">
+                            <div class="menu-item-content">
+                                <h3>Ogbono Soup</h3>
+                                <p>Thick and delicious soup made with ogbono seeds and assorted meat.</p>
+                                <span class="price">₦1,700</span>
+                                <button class="btn add-to-cart" data-name="Ogbono Soup" data-price="1700">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rice Dishes -->
+                <div class="category">
+                    <h2>🍚 Rice Dishes</h2>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <img src="./image/jollof rice.jpg" alt="Jollof Rice">
+                            <div class="menu-item-content">
+                                <h3>Jollof Rice</h3>
+                                <p>Flavorful tomato-based rice cooked with spices and served with chicken.</p>
+                                <span class="price">₦1,200</span>
+                                <button class="btn add-to-cart" data-name="Jollof Rice" data-price="1200">Add to Order</button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./image/fried rice.jpg" alt="Fried Rice">
+                            <div class="menu-item-content">
+                                <h3>Fried Rice</h3>
+                                <p>Stir-fried rice with vegetables, liver, and shrimp.</p>
+                                <span class="price">₦1,500</span>
+                                <button class="btn add-to-cart" data-name="Fried Rice" data-price="1500">Add to Order</button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./image/coconut rice.jpg" alt="Coconut Rice">
+                            <div class="menu-item-content">
+                                <h3>Coconut Rice</h3>
+                                <p>Aromatic rice cooked with coconut milk and spices.</p>
+                                <span class="price">₦1,300</span>
+                                <button class="btn add-to-cart" data-name="Coconut Rice" data-price="1300">Add to Order</button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./image/white rice and stew.jpg" alt="White Rice & Stew">
+                            <div class="menu-item-content">
+                                <h3>White Rice & Stew</h3>
+                                <p>Plain white rice served with rich Nigerian tomato stew.</p>
+                                <span class="price">₦1,000</span>
+                                <button class="btn add-to-cart" data-name="White Rice & Stew" data-price="1000">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proteins -->
+                <div class="category">
+                    <h2>🍖 Proteins</h2>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <img src="./image/grilled chicken.jpg" alt="Grilled Chicken">
+                            <div class="menu-item-content">
+                                <h3>Grilled Chicken</h3>
+                                <p>Succulent chicken marinated in spices and grilled to perfection.</p>
+                                <span class="price">₦2,000</span>
+                                <button class="btn add-to-cart" data-name="Grilled Chicken" data-price="2000">Add to Order</button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./image/goat meat.jpg" alt="Goat Meat">
+                            <div class="menu-item-content">
+                                <h3>Goat Meat</h3>
+                                <p>Tender goat meat prepared in a rich pepper sauce.</p>
+                                <span class="price">₦2,500</span>
+                                <button class="btn add-to-cart" data-name="Goat Meat" data-price="2500">Add to Order</button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./image/fried fish.jpg" alt="Fried Fish">
+                            <div class="menu-item-content">
+                                <h3>Fried Fish</h3>
+                                <p>Crispy fried fish seasoned with local spices.</p>
+                                <span class="price">₦1,800</span>
+                                <button class="btn add-to-cart" data-name="Fried Fish" data-price="1800">Add to Order</button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./image/beef.jpg" alt="Beef">
+                            <div class="menu-item-content">
+                                <h3>Beef</h3>
+                                <p>Tender beef chunks cooked in a flavorful sauce.</p>
+                                <span class="price">₦2,200</span>
+                                <button class="btn add-to-cart" data-name="Beef" data-price="2200">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Swallows -->
+                <div class="category">
+                    <h2>🍽️ Swallows</h2>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <img src="./image/pounded yam food.jpg" alt="Pounded Yam">
+                            <div class="menu-item-content">
+                                <h3>Pounded Yam</h3>
+                                <p>Smooth and stretchy yam paste, perfect with any soup.</p>
+                                <span class="price">₦800</span>
+                                <button class="btn add-to-cart" data-name="Pounded Yam" data-price="800">Add to Order</button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./image/fufu food.jpg" alt="Fufu">
+                            <div class="menu-item-content">
+                                <h3>Fufu</h3>
+                                <p>Soft dough made from cassava, ideal for soups.</p>
+                                <span class="price">₦700</span>
+                                <button class="btn add-to-cart" data-name="Fufu" data-price="700">Add to Order</button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./image/semo food.jpg" alt="Semo">
+                            <div class="menu-item-content">
+                                <h3>Semo</h3>
+                                <p>Smooth semolina swallow, a Nigerian favorite.</p>
+                                <span class="price">₦600</span>
+                                <button class="btn add-to-cart" data-name="Semo" data-price="600">Add to Order</button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./image/amala food.jpg" alt="Amala">
+                            <div class="menu-item-content">
+                                <h3>Amala</h3>
+                                <p>Yam flour swallow with a unique texture and taste.</p>
+                                <span class="price">₦750</span>
+                                <button class="btn add-to-cart" data-name="Amala" data-price="750">Add to Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Order Page -->
+    <div id="order-page" class="page">
+        <section class="order-header">
+            <div class="order-header-content">
+                <h1>Place Your Order</h1>
+                <p>Fill your cart with delicious meals and complete your order</p>
+            </div>
+        </section>
+
+        <section class="order-container">
+            <div class="container">
+                <div class="cart">
+                    <h2>Your Order</h2>
+                    <div class="cart-items" id="cart-items">
+                        <!-- Cart items will be added here dynamically -->
+                        <p class="empty-cart">Your cart is empty. Add items from the menu.</p>
+                    </div>
+                    <div class="cart-total">
+                        Total: ₦<span id="cart-total">0</span>
+                    </div>
+                    <div class="cart-actions">
+                        <button class="btn" id="clear-cart">Clear Cart</button>
+                        <a href="#" class="btn nav-link" data-page="menu">Add More Items</a>
+                    </div>
+                </div>
+
+                <div class="order-form">
+                    <h2>Delivery Information</h2>
+                    <form id="order-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Delivery Address (Awka only)</label>
+                            <textarea id="address" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Place Order</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Contact Page -->
+    <div id="contact-page" class="page">
+        <section class="contact-header">
+            <div class="contact-header-content">
+                <h1>Contact Us</h1>
+                <p>We'd love to hear from you</p>
+            </div>
+        </section>
+
+        <section class="contact-container">
+            <div class="container">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Aroma Junction, Awka, Anambra State, Nigeria</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p>+234 812 345 6789</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <p>+234 812 345 6789</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>info@aromakitchen.com</p>
+                        </div>
+                    </div>
+                    <div class="opening-hours">
+                        <h3>Opening Hours</h3>
+                        <p>Monday - Friday: 8:00 AM - 9:00 PM</p>
+                        <p>Saturday: 9:00 AM - 10:00 PM</p>
+                        <p>Sunday: 10:00 AM - 8:00 PM</p>
+                    </div>
+                </div>
+
+                <div class="map">
+                    <iframe 
+                        src="https://www.google.com/maps?q=Aroma+Junction,+Awka,+Nigeria&output=embed" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Aroma Kitchen - Aroma Junction, Awka, Anambra State, Nigeria</p>
+            <p>&copy; 2023 Aroma Kitchen. All Rights Reserved.</p>
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Order Confirmation Modal -->
+    <div class="modal" id="order-modal">
+        <div class="modal-content">
+            <span class="modal-close" id="modal-close">&times;</span>
+            <h2>Order Confirmed!</h2>
+            <p>Thank you for your order. We've received it and will begin preparation shortly.</p>
+            <p>Your food will be delivered to the address provided.</p>
+            <p>For any inquiries, please call +234 812 345 6789</p>
+            <button class="btn" id="modal-ok">OK</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
