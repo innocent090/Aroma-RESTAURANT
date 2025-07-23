@@ -52,7 +52,7 @@
             font-size: 1rem;
             transition: all 0.3s;
             margin-left: 20px;
-            height: 70px;
+            /* height: 70px; */
         }
         
         .btn:hover {
